@@ -1,0 +1,19 @@
+# Recordings and renders — big files, never commit these
+*.mp4
+*.ts
+*.mkv
+*.mov
+*.png
+*.ass
+*.srt
+
+# Transcripts and captions from individual runs (example stays)
+*-transcript.json
+*-caps.json
+*-captions.json
+!example-captions.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
